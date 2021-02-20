@@ -1,4 +1,4 @@
-# Structure and Interpretation of Computer Programs
+# CS 61A: Structure and Interpretation of Computer Programs
 
 This is a self-paced course in programming.
 
@@ -6,17 +6,29 @@ It is based on Berkley's course delivered in Spring 2011 of the same name.
 
 The target audience are serious programmers looking to advance their knowledge beyond some specific  language or technology.
 
-The course itself is based on the highly acclaimed [SICP ](http://sarabander.github.io/sicp/html/index.xhtml) book,  considered by many to be one of the most important Computer Science books ever written.
+The course itself is based on the highly acclaimed [SICP](http://sarabander.github.io/sicp/html/index.xhtml) book,  considered by many to be one of the most important Computer Science books ever written.
 
-# Usage
+## Usage
 
-Fork the repo.
+* Fork the repo.
 
-Study each item in sequence, checking off each item as you finish it.  
+* Study each item in sequence, checking off each item as you finish it.
 
-You can use [Dr. Racket](https://racket-lang.org/) in [SICP compatibility mode](https://docs.racket-lang.org/sicp-manual/index.html?q=sicp#%28part._.Introduction_to_the__lang_sicp_language%29) to execute the code in the book.
+* You can use [Dr. Racket](https://racket-lang.org/):
 
-# Course overview
+  in [sicp](https://docs.racket-lang.org/sicp-manual/SICP_Language.html?q=sicp) mode to execute the code in the book:
+
+  ```bash
+  raco pkg install sicp
+  ```
+
+  and in [simply-scheme](https://docs.racket-lang.org/manual@simply-scheme/) mode for the 61A homeworks (define additional procedures used in the lectures):
+
+  ```bash
+  raco pkg install simply-scheme
+  ```
+
+## Course overview
 
 Computer science isn’t about computers (that’s electrical engineering) and it isn’t primarily a science (we invent things more than we discover them).
 
@@ -47,156 +59,175 @@ The big idea of the course is abstraction: inventing languages that let us talk 
 
 We look at lower levels; all are important but we want to start at the highest level to get you thinking right.
 
-# Functional Programming
+## Resources
 
-- [ ] Read [Section 1.1: The Elements of Programming](http://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1)
+* [SICP Solutions](http://community.schemewiki.org/?SICP-Solutions)
 
-- [ ] Watch [Computer Science 61A - Lecture 1: functional programming 1](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8)
+* [CS61A Homepage - Brian Harvey](https://people.eecs.berkeley.edu/~bh/61a-pages/)
 
-- [ ] Watch [Computer Science 61A - Lecture 2: functional programming 2](https://archive.org/details/ucberkeley_webcast_TTK2lZoWbPQ)
+* [CS61A Reader Volume 2 - Reference Documents + Midterms and Final Exam](https://inst.eecs.berkeley.edu/%7Ecs61a/reader/vol2.html)
+  * [Lecture Notes](https://people.eecs.berkeley.edu/~bh/61a-pages/Volume2/notes.pdf) (*[local version](./documents/notes.pdf)*)
+* [CS61A Reader Volume 1 - Semester Assignments](https://people.eecs.berkeley.edu/~bh/61a-pages/Volume1/CS%2061A%20Course%20Reader,%20Volume%201.html)
+  * [Homeworks](https://people.eecs.berkeley.edu/~bh/61a-pages/Volume1/hw.pdf) (*[local version](./documents/homeworks.pdf)*)
+  * [Labs](https://people.eecs.berkeley.edu/~bh/61a-pages/Volume1/labs.pdf) (*[local version](./documents/labs.pdf)*)
+  * [Homeworks and Labs Solutions](https://people.eecs.berkeley.edu/~bh/61a-pages/Solutions/)
 
-# Higher-order procedures
+----------
 
-- [ ] Read [Section 1.3: Formulating Abstractions with Higher-Order Procedures](http://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3)
+## Week 1 - Functional Programming
 
-- [ ] Watch [Computer Science 61A - Lecture 3: higher-order procedures 1](https://archive.org/details/ucberkeley_webcast_ogIGxEzvnSE)
+* [ ] Read [Section 1.1: The Elements of Programming](http://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1)
 
-- [ ] Watch [Computer Science 61A - Lecture 4: higher-order procedures 2](https://archive.org/details/ucberkeley_webcast_ZvH3wF2qg7Q)
+* [ ] Watch [Computer Science 61A - Lecture 1: functional programming 1](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8)
 
-# Recursion and iteration
+* [ ] Watch [Computer Science 61A - Lecture 2: functional programming 2](https://archive.org/details/ucberkeley_webcast_TTK2lZoWbPQ)
 
-- [ ] Read [Section 1.2-1.2.4: Procedures and the Processes They Generate](http://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2)
+* [ ] Week 1 Labs
 
-- [ ] Watch [Computer Science 61A - Lecture 7: orders of growth](https://archive.org/details/ucberkeley_webcast_32L5j10rrK0)
+* [ ] Week 1 Homeworks
 
-- [ ] Watch [Computer Science 61A - Lecture 8: recursion and iteration](https://archive.org/details/ucberkeley_webcast_0G3tNuBBO5I)
+## Week 2 - Higher-order procedures
 
-# Data abstraction, sequences
+* [ ] Read [Section 1.3: Formulating Abstractions with Higher-Order Procedures](http://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3)
 
-- [ ] Read [Section 2.2.1: Representing Sequences](http://sarabander.github.io/sicp/html/2_002e2.xhtml#g_t2_002e2_002e1)
+* [ ] Watch [Computer Science 61A - Lecture 3: higher-order procedures 1](https://archive.org/details/ucberkeley_webcast_ogIGxEzvnSE)
 
-- [ ] Watch [Computer Science 61A - Lecture 9: data abstraction](https://archive.org/details/ucberkeley_webcast_Oy36XpGVyjA)
+* [ ] Watch [Computer Science 61A - Lecture 4: higher-order procedures 2](https://archive.org/details/ucberkeley_webcast_ZvH3wF2qg7Q)
 
-- [ ] Read [Sections 2.1: Introduction to Data Abstraction](http://sarabander.github.io/sicp/html/2_002e1.xhtml#g_t2_002e1)
+## Week 3 - Recursion and iteration
 
-- [ ] Watch [Computer Science 61A - Lecture 10: sequences](https://archive.org/details/ucberkeley_webcast__qGeRWplPgc)
+* [ ] Read [Section 1.2-1.2.4: Procedures and the Processes They Generate](http://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2)
 
-- [ ] Watch [Computer Science 61A - Lecture 11: Example: calculato](https://archive.org/details/ucberkeley_webcast_nzMPF59Ackg)
+* [ ] Watch [Computer Science 61A - Lecture 7: orders of growth](https://archive.org/details/ucberkeley_webcast_32L5j10rrK0)
 
-# Hierarchical data/Scheme interpreter
+* [ ] Watch [Computer Science 61A - Lecture 8: recursion and iteration](https://archive.org/details/ucberkeley_webcast_0G3tNuBBO5I)
 
-- [ ] Read [Section 2.2.2: Hierarchical Structures](http://sarabander.github.io/sicp/html/2_002e2.xhtml#g_t2_002e2_002e2)
+## Week 4 - Data abstraction, sequences
 
-- [ ] Read [Section 2.2.3: Sequences as Conventional Interfaces](http://sarabander.github.io/sicp/html/2_002e2.xhtml#g_t2_002e2_002e3)
+* [ ] Read [Section 2.2.1: Representing Sequences](http://sarabander.github.io/sicp/html/2_002e2.xhtml#g_t2_002e2_002e1)
 
-- [ ] Read [Section 2.3.1: Quotation](http://sarabander.github.io/sicp/html/2_002e3.xhtml#g_t2_002e3_002e1)
+* [ ] Watch [Computer Science 61A - Lecture 9: data abstraction](https://archive.org/details/ucberkeley_webcast_Oy36XpGVyjA)
 
-- [ ] Read [Section 2.3.3 Example: Representing Sets](http://sarabander.github.io/sicp/html/2_002e3.xhtml#g_t2_002e3_002e3)
+* [ ] Read [Sections 2.1: Introduction to Data Abstraction](http://sarabander.github.io/sicp/html/2_002e1.xhtml#g_t2_002e1)
 
-- [ ] Watch [Computer Science 61A - Lecture 12: hierarchical data](https://archive.org/details/ucberkeley_webcast_pSuEz5ZCVAg)
+* [ ] Watch [Computer Science 61A - Lecture 10: sequences](https://archive.org/details/ucberkeley_webcast__qGeRWplPgc)
 
-- [ ] Watch [Computer Science 61A - Lecture 13: hierarchical data](https://archive.org/details/ucberkeley_webcast_kbqJ3UGPgOc)
+* [ ] Watch [Computer Science 61A - Lecture 11: Example: calculato](https://archive.org/details/ucberkeley_webcast_nzMPF59Ackg)
 
-- [ ] Watch [Computer Science 61A - Lecture 14: Example: Scheme-1 interpreter](https://archive.org/details/ucberkeley_webcast_3FjDrWv00Hc)
+## Week 5 - Hierarchical data/Scheme interpreter
 
-# Generic operators
+* [ ] Read [Section 2.2.2: Hierarchical Structures](http://sarabander.github.io/sicp/html/2_002e2.xhtml#g_t2_002e2_002e2)
 
-- [ ] Read [Section 2.4: Multiple Representations for Abstract Data](http://sarabander.github.io/sicp/html/2_002e4.xhtml#g_t2_002e4)
+* [ ] Read [Section 2.2.3: Sequences as Conventional Interfaces](http://sarabander.github.io/sicp/html/2_002e2.xhtml#g_t2_002e2_002e3)
 
-- [ ] Read [Section 2.5 (through 2.5.2): Systems with Generic Operations](http://sarabander.github.io/sicp/html/2_002e5.xhtml#g_t2_002e5)
+* [ ] Read [Section 2.3.1: Quotation](http://sarabander.github.io/sicp/html/2_002e3.xhtml#g_t2_002e3_002e1)
 
-- [ ] Watch [Computer Science 61A - Lecture 16: generic operators](https://archive.org/details/ucberkeley_webcast_rz_XpDhDtFI)
+* [ ] Read [Section 2.3.3 Example: Representing Sets](http://sarabander.github.io/sicp/html/2_002e3.xhtml#g_t2_002e3_002e3)
 
-- [ ] Watch [Computer Science 61A - Lecture 17: generic operators](https://archive.org/details/ucberkeley_webcast_8HDIqZ2ZqKI)
+* [ ] Watch [Computer Science 61A - Lecture 12: hierarchical data](https://archive.org/details/ucberkeley_webcast_pSuEz5ZCVAg)
 
-# Object-oriented programming
+* [ ] Watch [Computer Science 61A - Lecture 13: hierarchical data](https://archive.org/details/ucberkeley_webcast_kbqJ3UGPgOc)
 
-- [ ] Read [Object-Oriented Programming | Above the line view](http://inst.eecs.berkeley.edu/~cs61a/reader/aboveline.pdf)
+* [ ] Watch [Computer Science 61A - Lecture 14: Example: Scheme-1 interpreter](https://archive.org/details/ucberkeley_webcast_3FjDrWv00Hc)
 
-- [ ] Watch [Computer Science 61A - Lecture 18: object-oriented programming](https://archive.org/details/ucberkeley_webcast_jq1v8YUftxE)
+## Week 6 - Generic operators
 
-- [ ] Watch [Computer Science 61A - Lecture 19: object-oriented programming](https://archive.org/details/ucberkeley_webcast_S9mGKy3Dzqw)
+* [ ] Read [Section 2.4: Multiple Representations for Abstract Data](http://sarabander.github.io/sicp/html/2_002e4.xhtml#g_t2_002e4)
 
-- [ ] Watch [Computer Science 61A - Lecture 20: object-oriented programming](https://archive.org/details/ucberkeley_webcast_AYoW8-L2dTQ)
+* [ ] Read [Section 2.5 (through 2.5.2): Systems with Generic Operations](http://sarabander.github.io/sicp/html/2_002e5.xhtml#g_t2_002e5)
 
-# Local state variables, environments
+* [ ] Watch [Computer Science 61A - Lecture 16: generic operators](https://archive.org/details/ucberkeley_webcast_rz_XpDhDtFI)
 
-- [ ] Read [Section 3.1: Assignment and Local State](http://sarabander.github.io/sicp/html/3_002e1.xhtml#g_t3_002e1)
+* [ ] Watch [Computer Science 61A - Lecture 17: generic operators](https://archive.org/details/ucberkeley_webcast_8HDIqZ2ZqKI)
 
-- [ ] Read [Section 3.2: The Environment Model of Evaluation](http://sarabander.github.io/sicp/html/3_002e2.xhtml#g_t3_002e2)
+## Week 7 - Object-oriented programming
 
-- [ ] Read [Object-Oriented Programming | Below the line view](http://inst.eecs.berkeley.edu/~cs61a/reader/belowline.pdf)
+* [ ] Read [Object-Oriented Programming | Above the line view](http://inst.eecs.berkeley.edu/~cs61a/reader/aboveline.pdf)
 
-- [ ] Watch [Computer Science 61A - Lecture 21: assignment and state](https://archive.org/details/ucberkeley_webcast_crlcqL7lKME)
+* [ ] Watch [Computer Science 61A - Lecture 18: object-oriented programming](https://archive.org/details/ucberkeley_webcast_jq1v8YUftxE)
 
-- [ ] Watch [Computer Science 61A - Lecture 22: environments](https://archive.org/details/ucberkeley_webcast_uxvRoOV9nOk)
+* [ ] Watch [Computer Science 61A - Lecture 19: object-oriented programming](https://archive.org/details/ucberkeley_webcast_S9mGKy3Dzqw)
 
-- [ ] Watch [Computer Science 61A - Lecture 23: environments](https://archive.org/details/ucberkeley_webcast_jmDguUbxOns)
+* [ ] Watch [Computer Science 61A - Lecture 20: object-oriented programming](https://archive.org/details/ucberkeley_webcast_AYoW8-L2dTQ)
 
-# Mutable data, queues, tables
+## Week 8 - Local state variables, environments
 
-- [ ] Read [Sections 3.3.1-3.3.3](http://sarabander.github.io/sicp/html/3_002e3.xhtml#g_t3_002e3_002e1)
+* [ ] Read [Section 3.1: Assignment and Local State](http://sarabander.github.io/sicp/html/3_002e1.xhtml#g_t3_002e1)
 
-- [ ] Watch [Computer Science 61A - Lecture 24: mutable data](https://archive.org/details/ucberkeley_webcast_OCocDioUZOo)
+* [ ] Read [Section 3.2: The Environment Model of Evaluation](http://sarabander.github.io/sicp/html/3_002e2.xhtml#g_t3_002e2)
 
-- [ ] Watch [Computer Science 61A - Lecture 25: mutable data](https://archive.org/details/ucberkeley_webcast_YgUZP1YbHsM)
+* [ ] Read [Object-Oriented Programming | Below the line view](http://inst.eecs.berkeley.edu/~cs61a/reader/belowline.pdf)
 
-- [ ] Watch [Computer Science 61A - Lecture 26: vectors](https://archive.org/details/ucberkeley_webcast_vV7gargdGxU)
+* [ ] Watch [Computer Science 61A - Lecture 21: assignment and state](https://archive.org/details/ucberkeley_webcast_crlcqL7lKME)
 
-# Client/server paradigm, Concurrency
+* [ ] Watch [Computer Science 61A - Lecture 22: environments](https://archive.org/details/ucberkeley_webcast_uxvRoOV9nOk)
 
-- [ ] Read [Section 3.4: Concurrency: Time Is of the Essence](http://sarabander.github.io/sicp/html/3_002e4.xhtml#g_t3_002e4)
+* [ ] Watch [Computer Science 61A - Lecture 23: environments](https://archive.org/details/ucberkeley_webcast_jmDguUbxOns)
 
-- [ ] Watch [Computer Science 61A - Lecture 30: client-server programming](https://archive.org/details/ucberkeley_webcast_Lr4zVJPpMrM)
+## Week 9 - Mutable data, queues, tables
 
-- [ ] Watch [Computer Science 61A - Lecture 31: concurrency](https://archive.org/details/ucberkeley_webcast_tfTD0B8dX7I)
+* [ ] Read [Sections 3.3.1-3.3.3](http://sarabander.github.io/sicp/html/3_002e3.xhtml#g_t3_002e3_002e1)
 
-- [ ] Watch [Computer Science 61A - Lecture 32: concurrency](https://archive.org/details/ucberkeley_webcast_a_qhlzmXqAo)
+* [ ] Watch [Computer Science 61A - Lecture 24: mutable data](https://archive.org/details/ucberkeley_webcast_OCocDioUZOo)
 
-# Streams
+* [ ] Watch [Computer Science 61A - Lecture 25: mutable data](https://archive.org/details/ucberkeley_webcast_YgUZP1YbHsM)
 
-- [ ] Read [Section 3.5.1-3.5.3](http://sarabander.github.io/sicp/html/3_002e5.xhtml#g_t3_002e5_002e1)
+* [ ] Watch [Computer Science 61A - Lecture 26: vectors](https://archive.org/details/ucberkeley_webcast_vV7gargdGxU)
 
-- [ ] Read [Section 3.5.5: Modularity of Functional Programs and Modularity of Objects](http://sarabander.github.io/sicp/html/3_002e5.xhtml#g_t3_002e5_002e5)
+## Week 10 - Client/server paradigm, Concurrency
 
-- [ ] Watch [Computer Science 61A - Lecture 33: streams](https://archive.org/details/ucberkeley_webcast_LLl89UwSflo)
+* [ ] Read [Section 3.4: Concurrency: Time Is of the Essence](http://sarabander.github.io/sicp/html/3_002e4.xhtml#g_t3_002e4)
 
-- [ ] Watch [Computer Science 61A - Lecture 34: streams](https://archive.org/details/ucberkeley_webcast_mtl0z0HgRTM)
+* [ ] Watch [Computer Science 61A - Lecture 30: client-server programming](https://archive.org/details/ucberkeley_webcast_Lr4zVJPpMrM)
 
-- [ ] Watch [Computer Science 61A - Lecture 35: Therac-25](https://archive.org/details/ucberkeley_webcast_nxX-aAvZbmM)
+* [ ] Watch [Computer Science 61A - Lecture 31: concurrency](https://archive.org/details/ucberkeley_webcast_tfTD0B8dX7I)
 
-# Metacircular evaluator
+* [ ] Watch [Computer Science 61A - Lecture 32: concurrency](https://archive.org/details/ucberkeley_webcast_a_qhlzmXqAo)
 
-- [ ] Read [Section 4.1: The Metacircular Evaluator](http://sarabander.github.io/sicp/html/4_002e1.xhtml#g_t4_002e1)
+## Week 11 - Streams
 
-- [ ] Watch [Computer Science 61A - Lecture 36: metacircular evaluator](https://archive.org/details/ucberkeley_webcast_E8ZyYL1qWWY)
+* [ ] Read [Section 3.5.1-3.5.3](http://sarabander.github.io/sicp/html/3_002e5.xhtml#g_t3_002e5_002e1)
 
-- [ ] Watch [Computer Science 61A - Lecture 37: metacircular evaluator](https://archive.org/details/ucberkeley_webcast_0SbpbHiyyEU)
+* [ ] Read [Section 3.5.5: Modularity of Functional Programs and Modularity of Objects](http://sarabander.github.io/sicp/html/3_002e5.xhtml#g_t3_002e5_002e5)
 
-- [ ] Watch [Computer Science 61A - Lecture 38: mapreduce](https://archive.org/details/ucberkeley_webcast_OVbHFr6SG_8)
+* [ ] Watch [Computer Science 61A - Lecture 33: streams](https://archive.org/details/ucberkeley_webcast_LLl89UwSflo)
 
-- [ ] Watch [Computer Science 61A - Lecture 39: mapreduce](https://archive.org/details/ucberkeley_webcast_tlABAGE-Tvc)
+* [ ] Watch [Computer Science 61A - Lecture 34: streams](https://archive.org/details/ucberkeley_webcast_mtl0z0HgRTM)
 
-# Analyzing evaluator
+* [ ] Watch [Computer Science 61A - Lecture 35: Therac-25](https://archive.org/details/ucberkeley_webcast_nxX-aAvZbmM)
 
-- [ ] Watch [Computer Science 61A - Lecture 40: analyzing evaluator](https://archive.org/details/ucberkeley_webcast_S9VoxtdsRyA)
+## Week 12 - Metacircular evaluator
 
-# Lazy evaluator, Nondeterministic evaluator
+* [ ] Read [Section 4.1: The Metacircular Evaluator](http://sarabander.github.io/sicp/html/4_002e1.xhtml#g_t4_002e1)
 
-- [ ] Read [Section 4.2: Variations on a Scheme -- Lazy Evaluation](http://sarabander.github.io/sicp/html/4_002e2.xhtml#g_t4_002e2)
+* [ ] Watch [Computer Science 61A - Lecture 36: metacircular evaluator](https://archive.org/details/ucberkeley_webcast_E8ZyYL1qWWY)
 
-- [ ] Read [Section 4.3: Variations on a Scheme -- Nondeterministic Computing](http://sarabander.github.io/sicp/html/4_002e3.xhtml#g_t4_002e3)
+* [ ] Watch [Computer Science 61A - Lecture 37: metacircular evaluator](https://archive.org/details/ucberkeley_webcast_0SbpbHiyyEU)
 
-- [ ] Watch [Computer Science 61A - Lecture 41: lazy evaluator](https://archive.org/details/ucberkeley_webcast_WJsgTZsFE3M)
+* [ ] Watch [Computer Science 61A - Lecture 38: mapreduce](https://archive.org/details/ucberkeley_webcast_OVbHFr6SG_8)
 
-# Logic programming
+* [ ] Watch [Computer Science 61A - Lecture 39: mapreduce](https://archive.org/details/ucberkeley_webcast_tlABAGE-Tvc)
 
-- [ ] Read [Section 4.4.1-4.43](http://sarabander.github.io/sicp/html/4_002e4.xhtml#g_t4_002e4_002e1)
+## Week 13 - Analyzing evaluator
 
-- [ ] Watch [Computer Science 61A - Lecture 42: logic programming](https://archive.org/details/ucberkeley_webcast_JIMS_mspmug)
+* [ ] Watch [Computer Science 61A - Lecture 40: analyzing evaluator](https://archive.org/details/ucberkeley_webcast_S9VoxtdsRyA)
 
-- [ ] Watch [Computer Science 61A - Lecture 43: logic programming](https://archive.org/details/ucberkeley_webcast_i5XtLVwTcZY)
+## Week 14 - Lazy evaluator, Nondeterministic evaluator
 
-# Review
+* [ ] Read [Section 4.2: Variations on a Scheme -- Lazy Evaluation](http://sarabander.github.io/sicp/html/4_002e2.xhtml#g_t4_002e2)
 
-- [ ] Watch [Computer Science 61A - Lecture 44: Review](https://archive.org/details/ucberkeley_webcast_zWiQru4tn-o)
+* [ ] Read [Section 4.3: Variations on a Scheme -- Nondeterministic Computing](http://sarabander.github.io/sicp/html/4_002e3.xhtml#g_t4_002e3)
+
+* [ ] Watch [Computer Science 61A - Lecture 41: lazy evaluator](https://archive.org/details/ucberkeley_webcast_WJsgTZsFE3M)
+
+## Week 15 - Logic programming
+
+* [ ] Read [Section 4.4.1-4.43](http://sarabander.github.io/sicp/html/4_002e4.xhtml#g_t4_002e4_002e1)
+
+* [ ] Watch [Computer Science 61A - Lecture 42: logic programming](https://archive.org/details/ucberkeley_webcast_JIMS_mspmug)
+
+* [ ] Watch [Computer Science 61A - Lecture 43: logic programming](https://archive.org/details/ucberkeley_webcast_i5XtLVwTcZY)
+
+## Review
+
+* [ ] Watch [Computer Science 61A - Lecture 44: Review](https://archive.org/details/ucberkeley_webcast_zWiQru4tn-o)
