@@ -82,7 +82,7 @@ We look at lower levels; all are important but we want to start at the highest l
 
 * [X] Watch [Computer Science 61A - Lecture 2: functional programming 2](https://archive.org/details/ucberkeley_webcast_TTK2lZoWbPQ)
 
-* [ ] Week 1 Labs
+* [X] Week 1 Labs
 
 * [X] Week 1 Homeworks
 
