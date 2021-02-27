@@ -65,6 +65,8 @@ We look at lower levels; all are important but we want to start at the highest l
 
 * [CS61A Homepage - Brian Harvey](https://people.eecs.berkeley.edu/~bh/61a-pages/)
 
+* [CS61A Lectures on Youtube](https://www.youtube.com/playlist?list=PLhMnuBfGeCDNgVzLPxF9o5UNKG1b-LFY9)
+
 * [CS61A Reader Volume 2 - Reference Documents + Midterms and Final Exam](https://inst.eecs.berkeley.edu/%7Ecs61a/reader/vol2.html)
   * [Lecture Notes](https://people.eecs.berkeley.edu/~bh/61a-pages/Volume2/notes.pdf) (*[local version](./documents/notes.pdf)*)
 * [CS61A Reader Volume 1 - Semester Assignments](https://people.eecs.berkeley.edu/~bh/61a-pages/Volume1/CS%2061A%20Course%20Reader,%20Volume%201.html)
@@ -88,11 +90,13 @@ We look at lower levels; all are important but we want to start at the highest l
 
 ## Week 2 - Higher-order procedures
 
-* [ ] Read [Section 1.3: Formulating Abstractions with Higher-Order Procedures](http://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3)
+* [X] Read [Section 1.3: Formulating Abstractions with Higher-Order Procedures](http://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3)
 
-* [ ] Watch [Computer Science 61A - Lecture 3: higher-order procedures 1](https://archive.org/details/ucberkeley_webcast_ogIGxEzvnSE)
+* [X] Watch [Computer Science 61A - Lecture 3: higher-order procedures 1](https://archive.org/details/ucberkeley_webcast_ogIGxEzvnSE)
 
-* [ ] Watch [Computer Science 61A - Lecture 4: higher-order procedures 2](https://archive.org/details/ucberkeley_webcast_ZvH3wF2qg7Q)
+* [X] Watch [Computer Science 61A - Lecture 4: higher-order procedures 2](https://archive.org/details/ucberkeley_webcast_ZvH3wF2qg7Q)
+
+* [X] Week 2 Homeworks
 
 ## Week 3 - Recursion and iteration
 
